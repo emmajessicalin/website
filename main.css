@@ -515,19 +515,39 @@ hr {
 }
 
 .boxes {
-  margin: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 60%;
-  min-width: 420px;
-  max-height: 100%;
+  float: left;
+  max-width: 70%;
 }
 
 .box {
-  display: inline-block;
-  max-width: 200px;
-  min-width: 180px;
+  display: block;
+  margin: 5px;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 40%;
+  }
+  .home_panel {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 4.5);
+  }
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(20% - 6px);
+  }
 }
 
 @media screen and (min-width: 50em) {
