@@ -452,8 +452,8 @@ hr {
 
 .box {
   display: block;
-  margin-left: 5px;
-  margin-right: 5px; 
+  margin-left: 8px;
+  margin-right: 8px; 
 }
 
 @media screen and (min-width: 600px) {
@@ -472,7 +472,7 @@ hr {
 
 @media screen and (min-width: 1000px) {
   .cell {
-    width: calc(100% / 4.8);
+    width: calc(100% / 5);
   }
 }
 
