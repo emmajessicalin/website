@@ -456,7 +456,7 @@ hr {
   margin-right: 8px; 
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 400px) {
   .grid {
     display: flex;
     flex-wrap: wrap;
